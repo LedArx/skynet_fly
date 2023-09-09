@@ -474,12 +474,3 @@ room_game_room_m 配置的 room_plug由`room_plug_pb` 改为 `room_plug_json`
 	旧连接跟旧服务通信。
 	新连接跟新服务通信。
 	适合用于玩一把游戏就退出的微服务架构。
-
-## 自己动手，实现一个石头剪刀布游戏
-[文档链接](https://huahua132.github.io/2023/07/22/skynet_fly/room_game)
-
-## 如何远程rpc调用
-
-具体使用例子可以参照`examples/cluster_client` `examples/cluster_server_1` `examples/cluster_server_2`
-
-[文档链接](https://huahua132.github.io/2023/07/28/skynet_fly/cluster_rpc)
